@@ -666,9 +666,14 @@ padding-right: 18%;
 
 @media (min-width: 400px) and (max-width:930px) {
     .button-list {
-        width: 85%; 
+        width: 50%; 
         display: flex;
+        flex-flow: column;
         justify-content: space-between;
+    }
+    
+    .live-btn {
+        margin-right: 10%;
     }
 }
 
