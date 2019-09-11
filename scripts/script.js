@@ -7,4 +7,10 @@ toggleButton.addEventListener('click', () => {
      navbarLinks.classList.toggle('active')
 });
 
-
+const animation = lottie.loadAnimation({
+     container : document.getElementById('bm'),
+     renderer: 'svg',
+     loop: true,
+     autoplay: true,
+     path: 'data.json'
+})
